@@ -1,2 +1,3 @@
-import style from "./main.css";
+
 import img from './img/big.jpg';
+import style from "./_scss/main.scss";

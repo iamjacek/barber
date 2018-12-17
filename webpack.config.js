@@ -9,7 +9,7 @@ module.exports = {
     devServer: {
         watchContentBase: true,
         contentBase: path.join(__dirname, 'dist'),
-        compress: true,
+        compress: true,   
         port: 9000
       },
     module: {
@@ -34,8 +34,13 @@ module.exports = {
             }]
           },
           {
-            test: /\.css$/,
-            use: [MiniCssExtractPlugin.loader, "css-loader"]
+            test: /\.scss$/,
+            use: [
+                MiniCssExtractPlugin.loader,
+                "css-loader",
+                "postcss-loader",
+                "sass-loader"
+            ]
           },
           {
             test: /.*\.(gif|png|jpe?g)$/i,
