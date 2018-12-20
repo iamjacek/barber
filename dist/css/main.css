@@ -1,0 +1,131 @@
+@font-face {
+  font-family: 'bernier';
+  font-display: swap;
+  src: url("../fonts/bernier.ttf");
+  /* IE9 Compat Modes */
+  src: url("../fonts/bernier.ttf") format("embedded-opentype"), url("../fonts/bernier.ttf") format("woff2"), url("../fonts/bernier.ttf") format("woff"), url("../fonts/bernier.ttf") format("truetype"), url("../fonts/bernier.ttf") format("svg");
+  /* Legacy iOS */ }
+
+body {
+  background-image: url(../img/tekstura.png);
+  background-repeat: repeat;
+  height: 100%;
+  width: 100%; }
+
+.navbar-brand {
+  width: 150px;
+  position: relative; }
+  .navbar-brand img {
+    position: absolute;
+    width: 130px;
+    top: -60px; }
+
+.navbar {
+  margin-top: 20px;
+  padding-top: -50px;
+  -webkit-border-radius: 10px;
+          border-radius: 10px; }
+  .navbar .nav-text {
+    margin-bottom: 2px;
+    font-family: "bernier", Fallback, sans-serif;
+    font-size: 1.5rem;
+    color: #000;
+    font-weight: normal;
+    letter-spacing: 1px; }
+
+.carousel {
+  max-width: 1200px;
+  margin: auto; }
+
+.carousel-item {
+  height: 300px; }
+
+.carousel-image-1 {
+  background: url("../img/slider1.png");
+  -webkit-background-size: cover;
+          background-size: cover; }
+
+.carousel-image-2 {
+  background: url("../img/slider2.png");
+  -webkit-background-size: cover;
+          background-size: cover; }
+
+.carousel-image-3 {
+  background: url("../img/slider3.png");
+  -webkit-background-size: cover;
+          background-size: cover; }
+
+.carousel-image-4 {
+  background: url("../img/slider4.png");
+  -webkit-background-size: cover;
+          background-size: cover; }
+
+.carousel-caption {
+  position: absolute;
+  left: 50%;
+  width: 100%; }
+  .carousel-caption h1 {
+    position: relative;
+    left: -50%;
+    font-family: "bernier", Fallback, sans-serif;
+    font-size: 5rem;
+    color: #fff;
+    text-shadow: 4px 3px #000; }
+  .carousel-caption .btn {
+    position: relative;
+    top: 70px;
+    left: -50%; }
+  .carousel-caption a:hover {
+    color: #fff; }
+
+.next-icon {
+  background-image: url("../img/right.png");
+  z-index: 1000;
+  height: 50px;
+  width: 60px; }
+
+.prev-icon {
+  background-image: url("../img/left.png");
+  height: 50px;
+  width: 60px;
+  z-index: 1000; }
+
+.btn-barber {
+  background: #3a86a6;
+  font-family: "bernier", Fallback, sans-serif;
+  font-size: 1.5rem;
+  color: #fff;
+  padding: 5px 30px 5px 30px; }
+
+.btn-barber:hover {
+  background: #68adca; }
+
+.card {
+  background: #3a86a6; }
+  .card img {
+    border-bottom: 4px #fff solid; }
+  .card .card-body img {
+    border: 0; }
+
+footer {
+  height: 100%;
+  width: 100%; }
+
+.footer {
+  height: 160;
+  padding: 20px;
+  background: url("../img/banner.png") no-repeat;
+  background-position: center; }
+
+.twitter-margin-left {
+  margin-left: 7rem; }
+
+@media (max-width: 767.98px) {
+  .navbar-brand img {
+    width: 90px;
+    top: -38px; }
+  .footer {
+    background: url(); }
+  .twitter-margin-left {
+    margin-left: 0rem; } }
+
