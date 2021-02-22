@@ -1,3 +1,3 @@
 # barber
 First site
-create a website from ready graphic project
+create a website from provided design
