@@ -1,3 +1,4 @@
 # barber
-First site
-create a website from provided design
+
+But do not rate a website as this was made to create my own webpack build from the beginning.
+
